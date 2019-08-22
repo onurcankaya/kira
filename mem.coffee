@@ -3,7 +3,7 @@ command: "ESC=`printf \"\e\"`; ps -A -o %mem | awk '{s+=$1} END {print \"\" s}'"
 refreshFrequency: 2000 # ms
 
 render: (output) ->
-  "mem <span>#{output}</span>"
+  "memory <span>#{output}</span>"
 
 style: """
   -webkit-font-smoothing: antialiased

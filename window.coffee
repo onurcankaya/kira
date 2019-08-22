@@ -32,8 +32,8 @@ style: """
   top: 14px
   left: 50px
   .active
-    background-color: #28a946
-    color: white
+    background-color: #f9e163
+    color: #555
   span
     -webkit-font-smoothing: antialiased
     font: 11px Menlo
