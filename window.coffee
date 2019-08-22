@@ -32,7 +32,7 @@ style: """
   top: 14px
   left: 50px
   .active
-    background-color: #70f72d
+    background-color: #28a946
     color: white
   span
     -webkit-font-smoothing: antialiased
